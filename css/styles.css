@@ -10,16 +10,21 @@ h2 {
     color: #3046C5;
 }
 
+.navbar {
+    background-color: #901CAD;
+}
+
 header h2 {
     color: #CEC8FF;
 }
 
-footer {
+.site-footer {
     background-image: linear-gradient(#CEC8FF, white);
     padding: 20px 0;
 }
 
 .jumbotron {
+    margin: 0;
     padding: 30px;
     background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
     color: white;
@@ -29,4 +34,19 @@ footer {
     padding: 50px 0;
     border-bottom: 1px ridge;
     min-height: 200px;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel {
+    border: solid #5637DD;
+}
+
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
 }
